@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Placa video (GPU) • Componentele unui calculator</title>
+    <meta name="description" content="Ce este GPU-ul, rolul in randare grafica, jocuri, editare video si AI. Memorie VRAM, TDP si racire." />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav" role="navigation" aria-label="Navigatie principala">
+        <a class="brand" href="index.html">
+          <span class="brand-logo" aria-hidden="true"></span>
+          <span class="brand-title">Componentele unui calculator</span>
+        </a>
+        <nav class="menu">
+          <a href="index.html">Acasă</a>
+          <a href="cpu.html">CPU</a>
+          <a href="placa-video.html" aria-current="page">GPU</a>
+          <a href="memorie-ram.html">RAM</a>
+          <a href="stocare.html">Stocare</a>
+          <a href="placa-de-baza.html">Placa de bază</a>
+          <a href="sursa.html">Sursa</a>
+          <a href="periferice.html">Periferice</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="container">
+          <h2>Placa video (GPU)</h2>
+          <div class="grid-2">
+            <div class="panel">
+              <h3>Rol și componente</h3>
+              <p>GPU-ul accelerează calculele grafice și sarcinile paralele. Este esențial în jocuri, randare 3D, editare video și aplicații de AI.</p>
+              <ul class="list">
+                <li><strong>VRAM</strong>: memoria video dedicată texturilor și cadrelor.</li>
+                <li><strong>Frecvențe</strong> și <strong>număr nuclee CUDA/stream</strong>.</li>
+                <li><strong>TDP</strong> și soluții de răcire (ventilatoare, camere de vapori).</li>
+              </ul>
+            </div>
+            <div class="panel">
+              <h3>Alegerea corectă</h3>
+              <ul class="list">
+                <li>Verifică dimensiunea (lungime/înălțime) și spațiul din carcasă.</li>
+                <li>Asigură-te că sursa are suficienți conectori PCIe și putere.</li>
+                <li>Potrivirea cu rezoluția monitorului (1080p, 1440p, 4K).</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="breadcrumbs"><a href="index.html">Acasă</a> › GPU</div>
+        <div>© <span id="year"></span> EduPC</div>
+      </div>
+    </footer>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </body>
+  </html>
+
+

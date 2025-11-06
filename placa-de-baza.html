@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Placa de bază • Componentele unui calculator</title>
+    <meta name="description" content="Ce face placa de baza: socket CPU, chipset, sloturi RAM, PCIe, M.2 si conectivitate." />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav" role="navigation" aria-label="Navigatie principala">
+        <a class="brand" href="index.html">
+          <span class="brand-logo" aria-hidden="true"></span>
+          <span class="brand-title">Componentele unui calculator</span>
+        </a>
+        <nav class="menu">
+          <a href="index.html">Acasă</a>
+          <a href="cpu.html">CPU</a>
+          <a href="placa-video.html">GPU</a>
+          <a href="memorie-ram.html">RAM</a>
+          <a href="stocare.html">Stocare</a>
+          <a href="placa-de-baza.html" aria-current="page">Placa de bază</a>
+          <a href="sursa.html">Sursa</a>
+          <a href="periferice.html">Periferice</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="container">
+          <h2>Placa de bază</h2>
+          <div class="grid-2">
+            <div class="panel">
+              <h3>Elemente cheie</h3>
+              <ul class="list">
+                <li><strong>Socket</strong> – compatibilitatea cu procesorul.</li>
+                <li><strong>Chipset</strong> – funcționalități, overclock, număr de linii PCIe.</li>
+                <li><strong>Sloturi</strong> – RAM (DIMM), PCIe (GPU/placi), M.2 (SSD).</li>
+              </ul>
+            </div>
+            <div class="panel">
+              <h3>Conectivitate</h3>
+              <ul class="list">
+                <li>USB (3.2/USB-C), rețea (2.5G), Wi‑Fi, audio.</li>
+                <li>Alimentare CPU (EPS) și faze VRM pentru stabilitate.</li>
+                <li>Heatsink-uri pentru SSD-urile M.2 rapide.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="breadcrumbs"><a href="index.html">Acasă</a> › Placa de bază</div>
+        <div>© <span id="year"></span> EduPC</div>
+      </div>
+    </footer>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </body>
+  </html>
+
+

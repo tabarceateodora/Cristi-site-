@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Stocarea (SSD/HDD) • Componentele unui calculator</title>
+    <meta name="description" content="Diferente intre SSD NVMe, SSD SATA si HDD. Viteza, capacitate si fiabilitate." />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav" role="navigation" aria-label="Navigatie principala">
+        <a class="brand" href="index.html">
+          <span class="brand-logo" aria-hidden="true"></span>
+          <span class="brand-title">Componentele unui calculator</span>
+        </a>
+        <nav class="menu">
+          <a href="index.html">Acasă</a>
+          <a href="cpu.html">CPU</a>
+          <a href="placa-video.html">GPU</a>
+          <a href="memorie-ram.html">RAM</a>
+          <a href="stocare.html" aria-current="page">Stocare</a>
+          <a href="placa-de-baza.html">Placa de bază</a>
+          <a href="sursa.html">Sursa</a>
+          <a href="periferice.html">Periferice</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="container">
+          <h2>Stocarea (SSD/HDD)</h2>
+          <div class="grid-2">
+            <div class="panel">
+              <h3>Tipuri și utilizări</h3>
+              <ul class="list">
+                <li><strong>SSD NVMe</strong>: cel mai rapid; ideal pentru OS și aplicații.</li>
+                <li><strong>SSD SATA</strong>: bun la preț/viteză, compatibilitate largă.</li>
+                <li><strong>HDD</strong>: capacități mari și cost redus, dar lent.</li>
+              </ul>
+            </div>
+            <div class="panel">
+              <h3>Interfețe și factori de formă</h3>
+              <p>M.2 (NVMe/SATA), 2.5" (SATA), 3.5" (SATA). Verifică sloturile plăcii de bază.</p>
+              <ul class="list">
+                <li>Prioritizează SSD pentru viteză generală a sistemului.</li>
+                <li>Folosește HDD pentru arhivare și biblioteci media.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="breadcrumbs"><a href="index.html">Acasă</a> › Stocare</div>
+        <div>© <span id="year"></span> EduPC</div>
+      </div>
+    </footer>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </body>
+  </html>
+
+

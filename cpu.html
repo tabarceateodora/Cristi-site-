@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Procesorul (CPU) • Componentele unui calculator</title>
+    <meta name="description" content="Ce este procesorul (CPU), cum functioneaza si ce parametri conteaza: frecventa, nuclee, thread-uri, cache si TDP." />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav" role="navigation" aria-label="Navigatie principala">
+        <a class="brand" href="index.html">
+          <span class="brand-logo" aria-hidden="true"></span>
+          <span class="brand-title">Componentele unui calculator</span>
+        </a>
+        <nav class="menu">
+          <a href="index.html">Acasă</a>
+          <a href="cpu.html" aria-current="page">CPU</a>
+          <a href="placa-video.html">GPU</a>
+          <a href="memorie-ram.html">RAM</a>
+          <a href="stocare.html">Stocare</a>
+          <a href="placa-de-baza.html">Placa de bază</a>
+          <a href="sursa.html">Sursa</a>
+          <a href="periferice.html">Periferice</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="section">
+        <div class="container">
+          <h2>Procesorul (CPU)</h2>
+          <div class="grid-2">
+            <div class="panel">
+              <h3>Rolul CPU-ului</h3>
+              <p>CPU-ul este unitatea centrală de procesare – execută instrucțiunile programelor și coordonează toate operațiile din sistem. Practic, este „creierul” calculatorului.</p>
+              <ul class="list">
+                <li><strong>Nuclee</strong>: procese paralele pentru multitasking.</li>
+                <li><strong>Thread-uri</strong>: fire logice ce multiplică task-urile pe nucleu.</li>
+                <li><strong>Cache</strong>: L1/L2/L3 reduc latențele accesului la date.</li>
+                <li><strong>Frecvență</strong>: numărul de cicluri pe secundă (GHz).</li>
+                <li><strong>TDP</strong>: consumul termic proiectat; influențează răcirea.</li>
+              </ul>
+            </div>
+            <div class="panel">
+              <h3>Ce să urmărești la alegere</h3>
+              <ul class="list">
+                <li>Numărul de nuclee și performanța single-core pentru aplicațiile tale.</li>
+                <li>Compatibilitatea cu <em>socket-ul</em> plăcii de bază.</li>
+                <li>Suport pentru memorii (ex. DDR4/DDR5) și frecvențe.</li>
+                <li>Necesitățile de răcire și TDP-ul procesorului.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="breadcrumbs"><a href="index.html">Acasă</a> › CPU</div>
+        <div>© <span id="year"></span> EduPC</div>
+      </div>
+    </footer>
+    <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  </body>
+  </html>
+
+

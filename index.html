@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Componentele unui calculator • Acasă</title>
+    <meta name="description" content="Site educativ in limba romana despre componentele unui calculator: CPU, GPU, RAM, stocare, placa de baza, sursa si periferice." />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav" role="navigation" aria-label="Navigatie principala">
+        <a class="brand" href="index.html">
+          <span class="brand-logo" aria-hidden="true"></span>
+          <span class="brand-title">Componentele unui calculator</span>
+        </a>
+        <nav class="menu">
+          <a href="index.html" aria-current="page">Acasă</a>
+          <a href="cpu.html">CPU</a>
+          <a href="placa-video.html">GPU</a>
+          <a href="memorie-ram.html">RAM</a>
+          <a href="stocare.html">Stocare</a>
+          <a href="placa-de-baza.html">Placa de bază</a>
+          <a href="sursa.html">Sursa</a>
+          <a href="periferice.html">Periferice</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <h1>Învață pe înțelesul tău componentele unui calculator</h1>
+          <p>Ghid vizual și explicații simple despre rolul fiecărei piese, cum lucrează împreună și ce contează la alegere.</p>
+          <div class="cards">
+            <article class="card">
+              <h3>Procesorul (CPU)</h3>
+              <p>Creierul sistemului – execută instrucțiuni și coordonează toate operațiile.</p>
+              <div class="actions">
+                <a class="btn" href="cpu.html">Află mai mult</a>
+                <a class="btn outline" href="placa-de-baza.html">Vezi cum colaborează</a>
+              </div>
+            </article>
+            <article class="card">
+              <h3>Placa video (GPU)</h3>
+              <p>Specialistul în grafică – randare 2D/3D, jocuri, editare video și AI.</p>
+              <div class="actions">
+                <a class="btn" href="placa-video.html">Află mai mult</a>
+                <a class="btn outline" href="memorie-ram.html">Câtă RAM ajută?</a>
+              </div>
+            </article>
+            <article class="card">
+              <h3>Memoria RAM</h3>
+              <p>Spațiul de lucru temporar – păstrează datele active pentru acces rapid.</p>
+              <div class="actions">
+                <a class="btn" href="memorie-ram.html">Află mai mult</a>
+                <a class="btn outline" href="stocare.html">RAM vs Stocare</a>
+              </div>
+            </article>
+            <article class="card">
+              <h3>Stocarea (SSD/HDD)</h3>
+              <p>Memoria de lungă durată – unde sunt păstrate sistemul și fișierele.</p>
+              <div class="actions">
+                <a class="btn" href="stocare.html">Tipuri și viteze</a>
+                <a class="btn outline" href="placa-de-baza.html">Interfețe suportate</a>
+              </div>
+            </article>
+            <article class="card">
+              <h3>Placa de bază</h3>
+              <p>Platforma de conectare – leagă toate componentele și le pune la lucru.</p>
+              <div class="actions">
+                <a class="btn" href="placa-de-baza.html">Sloturi și socket-uri</a>
+                <a class="btn outline" href="sursa.html">Ce sursă aleg?</a>
+              </div>
+            </article>
+            <article class="card">
+              <h3>Sursa (PSU)</h3>
+              <p>Alimentează sistemul – stabilitate, eficiență și protecție electrică.</p>
+              <div class="actions">
+                <a class="btn" href="sursa.html">Putere și certificări</a>
+                <a class="btn outline" href="periferice.html">Accesorii utile</a>
+              </div>
+            </article>
+          </div>
+
+          <div class="grid-2">
+            <div class="panel">
+              <h3>Începe cu fundamentele</h3>
+              <ul class="list">
+                <li>Ce este un ciclu de ceas și de ce contează frecvența?</li>
+                <li>De ce latentele RAM influențează reacția sistemului?</li>
+                <li>Diferența dintre SSD SATA și NVMe.</li>
+              </ul>
+            </div>
+            <div class="panel">
+              <h3>Recomandări rapide</h3>
+              <ul class="list">
+                <li>8–16 GB RAM pentru utilizare generală; 32 GB+ pentru editare/jocuri.</li>
+                <li>SSD NVMe pentru sistemul de operare; HDD doar pentru arhivare.</li>
+                <li>Sursă cu certificare 80+ Bronze/Gold și putere cu 20–30% rezervă.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="breadcrumbs">Acasă</div>
+        <div>© <span id="year"></span> EduPC • Temă albastră</div>
+      </div>
+    </footer>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
+
+
